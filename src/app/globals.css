@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 4%;
+    --muted: 240 5% 96%;
+    --muted-foreground: 240 4% 46%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 4%;
+    --border: 240 6% 90%;
+    --accent: 239 84% 67%;
+    --accent-foreground: 0 0% 100%;
+  }
+
+  .dark {
+    --background: 240 10% 4%;
+    --foreground: 0 0% 98%;
+    --muted: 240 4% 12%;
+    --muted-foreground: 240 5% 65%;
+    --card: 240 6% 8%;
+    --card-foreground: 0 0% 98%;
+    --border: 240 4% 16%;
+    --accent: 239 84% 67%;
+    --accent-foreground: 0 0% 100%;
+  }
+
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-feature-settings: "ss01", "cv11";
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::selection {
+    background-color: hsl(var(--accent) / 0.25);
+  }
+}
+
+@layer components {
+  .container-tight {
+    @apply mx-auto max-w-3xl px-5 sm:px-6;
+  }
+
+  .container-wide {
+    @apply mx-auto max-w-5xl px-5 sm:px-6;
+  }
+
+  .link {
+    @apply underline-offset-4 hover:underline decoration-1;
+  }
+
+  .pill {
+    @apply inline-flex items-center rounded-full border border-border bg-muted px-2.5 py-0.5 text-xs font-medium text-muted-foreground;
+  }
+}
