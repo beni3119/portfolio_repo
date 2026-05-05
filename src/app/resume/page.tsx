@@ -13,13 +13,11 @@ export default function ResumePage() {
       title: "Indian Market",
       file: site.resume.india,
       icon: MapPin,
-      desc: "DD-MM dates, INR-context phrasing, IIT Madras listed first. Ideal for Naukri / LinkedIn Easy Apply / Workday in India.",
     },
     {
       title: "UK / EU / Sponsored",
       file: site.resume.uk,
       icon: Globe2,
-      desc: "UK English, visa & relocation line, University of Birmingham listed first. Tailored for Skilled Worker sponsor companies.",
     },
   ];
 
@@ -29,7 +27,7 @@ export default function ResumePage() {
         Resume
       </h1>
       <p className="mt-2 text-sm text-muted-foreground">
-        Two one-page versions, market-specific and ATS-optimised.
+        Two versions, tailored to different markets.
       </p>
 
       <div className="mt-10 grid gap-4 sm:grid-cols-2">
@@ -42,7 +40,6 @@ export default function ResumePage() {
               <c.icon size={18} />
             </span>
             <h2 className="mt-4 font-semibold tracking-tight">{c.title}</h2>
-            <p className="mt-1.5 text-sm text-muted-foreground">{c.desc}</p>
             <div className="mt-5 flex flex-wrap gap-2">
               <a
                 href={c.file}
@@ -62,11 +59,6 @@ export default function ResumePage() {
             </div>
           </div>
         ))}
-      </div>
-
-      <div className="mt-12 rounded-xl border border-border bg-muted/30 p-5 text-sm text-muted-foreground">
-        Both versions are single-column, ATS-safe, and verified to render as
-        exactly one page in Microsoft Word.
       </div>
     </div>
   );
