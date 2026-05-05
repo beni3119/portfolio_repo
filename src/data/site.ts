@@ -7,7 +7,7 @@ export const site = {
     "I build production-grade Generative AI, RAG, and Computer Vision systems. Currently shipping AI at Resolve Tech Solutions; previously fine-tuned Vision-Language Models at Bosch and researched Quantum-enhanced ML at IIT Madras × University of Birmingham.",
   location: "Bengaluru, India",
   email: "hardikbeniwal3119@gmail.com",
-  url: "https://hardikbeniwal.vercel.app",
+  url: "https://hardik-beniwal.vercel.app",
   links: {
     github: "https://github.com/beni3119",
     githubUser: "beni3119",
