@@ -4,7 +4,7 @@ export const site = {
   role: "AI/ML Engineer",
   tagline: "AI/ML Engineer · Building production GenAI on AWS",
   longTagline:
-    "I build production-grade Generative AI, RAG, and Computer Vision systems. Currently shipping AI at Resolve Tech Solutions; previously fine-tuned Vision-Language Models at Bosch and researched Quantum-enhanced ML at IIT Madras × University of Birmingham.",
+    "I build production-grade Generative AI, agentic, and RAG systems. Currently building agentic AI for scientific foundation models at Zenteiq; previously shipped production GenAI and MLOps at Resolve Tech Solutions, fine-tuned Vision-Language Models at Bosch, and researched Quantum-enhanced ML at IIT Madras × University of Birmingham.",
   location: "Bengaluru, India",
   email: "hardikbeniwal3119@gmail.com",
   url: "https://hardik-beniwal.vercel.app",

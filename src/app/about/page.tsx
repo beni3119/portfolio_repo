@@ -30,12 +30,14 @@ export default function AboutPage() {
 
       <div className="prose prose-zinc mt-8 max-w-none text-[15px] leading-relaxed text-foreground dark:prose-invert">
         <p>
-          I&apos;m an AI/ML Engineer who likes shipping. I&apos;ve spent the last
-          year-and-a-bit moving research-grade ideas into production —
-          fine-tuning Vision-Language Models at Bosch, building real-time RAG
-          and anomaly-detection pipelines at Resolve Tech Solutions, and
-          contributing to AI-ethics work at IIT Madras&apos; Centre for
-          Responsible AI.
+          I&apos;m an AI/ML Engineer who likes shipping. I currently work at
+          Zenteiq, building the agentic architecture of KogneX so customers
+          can run scientific foundation models for inference and simulation.
+          Before that I spent a year moving research-grade ideas into
+          production — building multi-agent RAG, incident-management and
+          anomaly-detection systems at Resolve Tech Solutions, fine-tuning
+          Vision-Language Models at Bosch, and contributing to AI-ethics work
+          at IIT Madras&apos; Centre for Responsible AI.
         </p>
         <p>
           My MSc was a joint Data Science & AI degree from the{" "}

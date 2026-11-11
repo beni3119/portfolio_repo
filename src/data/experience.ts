@@ -11,19 +11,32 @@ export type Job = {
 
 export const experience: Job[] = [
   {
+    role: "AI and Machine Learning Engineer",
+    company: "Zenteiq",
+    location: "Bengaluru, India",
+    start: "Aug 2026",
+    end: "Present",
+    bullets: [
+      "Evaluated the AhamX RAG pipeline on quantitative and qualitative metrics; raised content-coverage accuracy from ~50% to >70% by tuning the model's mode and parameters.",
+      "Building the agentic architecture of KogneX, a platform that lets customers run scientific foundation models for inference and simulation.",
+    ],
+    tags: ["Agentic AI", "RAG Evaluation", "LLMs", "Scientific Foundation Models"],
+  },
+  {
     role: "AI/ML Engineer",
     company: "Resolve Tech Solutions (RTS)",
     companyUrl: "https://www.resolvetech.com/",
     location: "Bengaluru, India",
     start: "Aug 2025",
-    end: "Present",
+    end: "Aug 2026",
     bullets: [
-      "Designed and shipped an end-to-end anomaly-detection platform (Isolation Forest + LSTM Autoencoders), reducing false-positive alerts by ~35% across 50+ metrics and processing 2M+ telemetry events/day.",
-      "Built a RAG engine for IT-ticket summarisation and recommendation on AWS Bedrock + OpenSearch + Streamlit; indexed 80K+ tickets, cutting mean resolution time by ~40% for 30+ support engineers.",
-      "Productionised real-time ML services on AWS (SageMaker, ECS, ECR, SQS) serving 200+ req/s at <120 ms p95 with 99.9% uptime; CI/CD via Docker, GitHub Actions, MLflow, DVC; cut infra spend by ~25%.",
+      "Built an end-to-end AI-driven incident-management platform integrating OpenTelemetry/CloudWatch telemetry with ServiceNow; a confidence engine recommends or auto-creates tickets, and a multi-agent RAG pipeline over 20K+ logs/SOPs enriches incidents, reducing manual triage effort by ~40%.",
+      "Built an AI-driven S3 security-remediation platform (AWS Bedrock/Claude 3.5, boto3, Streamlit) with a 3-stage classify → risk → remediate pipeline across 8+ bucket signals, plus human-in-the-loop guardrails and deterministic checks restricting automated fixes to whitelisted, dry-run-safe actions.",
+      "Designed and deployed an anomaly-detection platform (Isolation Forest + LSTM Autoencoders), reducing false-positive alerts by ~35% across 10+ metrics while processing 2M+ telemetry events/day.",
+      "Engineered an unsupervised alert-deduplication system (HDBSCAN, Node2Vec graph embeddings, GraphSAGE) suppressing ~84% of duplicate SAP monitoring alerts across 11K+ events; deployed on AWS EKS + SageMaker with FastAPI and GitLab CI/CD.",
       "Recognised with the company-wide Townhall Award for production-grade AI delivery within the first 6 months.",
     ],
-    tags: ["AWS", "Bedrock", "RAG", "SageMaker", "MLOps", "Anomaly Detection"],
+    tags: ["AWS", "Bedrock", "Multi-Agent RAG", "SageMaker", "EKS", "MLOps", "Anomaly Detection"],
   },
   {
     role: "GenAI Research Intern",
